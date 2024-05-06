@@ -902,12 +902,8 @@ span.two {
 .services-block #sync2 .current .item {
   background: #0c83e7;
 }
-.services-block .owl-theme .owl-nav [class*=owl-] {
-  transition: all 0.3s ease;
-}
-.services-block .owl-theme .owl-nav [class*=owl-].disabled:hover {
-  background-color: #D6D6D6;
-}
+
+
 .services-block #sync1.owl-theme {
   position: relative;
 }
@@ -1507,24 +1503,7 @@ span.two {
   }
 }
 
-#testimonial_slider .owl-nav .owl-prev {
-  left: -70px;
-}
-#testimonial_slider .owl-nav .owl-next {
-  right: -70px;
-}
-#testimonial_slider .owl-nav button {
-  position: absolute;
-  top: 35%;
-  border-radius: 10px;
-  padding: 12px 18px !important;
-  color: #0a0606;
-  background-color: #ffffff;
-  box-shadow: 2px 8px 16px 4px rgba(0, 0, 0, 0.08);
-}
-#testimonial_slider .owl-nav button img {
-  width: 10px;
-}
+
 
 #testimonial_slider .item .card-block {
   overflow: hidden;
@@ -1596,9 +1575,7 @@ span.two {
   background-color: #fff;
   transform: rotate(20deg);
 }
-#casestudy_slider .owl-nav .owl-prev {
-  right: 170px;
-}
+
 #casestudy_slider .owl-nav .owl-next {
   right: 120px;
 }
