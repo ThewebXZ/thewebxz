@@ -1,0 +1,194 @@
+﻿/* Responsive */
+@media (max-width:280px) {
+    .head3{
+        font-size:25px
+    }
+    p{
+        font-size:14px;
+    }
+}
+@media (min-width:360px) and (max-width:600px) {
+    .text-overlay {
+        position: absolute;
+        top: 1rem;
+        left: 0;
+        padding: 1.5px;
+        font-size: 0.8rem;
+        font-weight: 100;
+        color: #596477;
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        line-height:20px;
+    }
+
+}
+@media(min-width:300px) and (max-width:359px) {
+
+.text-overlay {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #596477;
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+}
+}
+@media (min-width:601px) and (max-width:710px) {
+    .text-overlay {
+        position: absolute;
+        top: 0rem;
+        left: 0;
+        padding: 1.5px;
+        font-size: 14px;
+        font-weight: 100;
+        color: #596477;
+        font-family: "Poppins", sans-serif;
+        width: 90%;
+        line-height:20px;
+    }
+
+}
+@media (min-width:992px) and (max-width:1023px) {
+
+    .gadget_slider_content h3 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+}
+@media (min-width:711px) and (max-width:767px){
+    .text-overlay {
+    position: absolute;
+    top: 0rem;
+    left: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 100;
+    color: #596477;
+    font-family: "Poppins", sans-serif;
+    width: 99%;
+}
+}
+@media only screen and (max-width: 857px) {
+    .s_service_item1 {
+        background-color:white;
+        box-shadow: 0px 20px 60px 0px rgba(0, 11, 40, 0.06);
+        padding: 50px 40px 40px;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+    }
+
+    .sec_pad1 {
+        padding: 50px 0px;
+        background: #fff;
+    }
+}
+
+
+@media (min-width:1080px) and (max-width:1344px) {
+    .payment_content_two .payment_img {
+        margin-top: 60px;
+        position: relative;
+        z-index: 1;
+    }
+
+        .payment_content_two .payment_img .payment_icon {
+            position: absolute;
+            z-index: 0;
+        }
+
+            .payment_content_two .payment_img .payment_icon.icon_one {
+                top: 10px;
+                left: -98px;
+                width: 262px;
+                height: 262px;
+            }
+
+            .payment_content_two .payment_img .payment_icon.icon_two {
+                left: -100rem;
+                top: 53%;
+            }
+
+            .payment_content_two .payment_img .payment_icon.icon_three {
+                bottom: 4%;
+                left: -80px;
+                z-index: 1;
+            }
+
+            .payment_content_two .payment_img .payment_icon.icon_four {
+                right: 10rem;
+                top: 30px;
+            }
+
+            .payment_content_two .payment_img .payment_icon.icon_five {
+                right: -40px;
+                top: 80px;
+            }
+
+            .payment_content_two .payment_img .payment_icon.icon_six {
+                right: -20%;
+                bottom: 8rem;
+            }
+
+    .gadget_slider_content .text {
+        font-size: 200px;
+        line-height: 120px;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.1);
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .gadget_slider_content h6 {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        margin-bottom: 1px;
+    }
+
+    .gadget_slider_content h3 {
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 700;
+        margin-bottom: -22px;
+    }
+
+    .gadget_promo_area .promo_img {
+        margin-top: -135px;
+        margin-bottom: -152px;
+    }
+
+    .agency_about_area .owl-dots {
+        position: absolute;
+        left: -49%;
+        bottom: -45px;
+    }
+
+        .agency_about_area .owl-dots button span {
+            width: 8px;
+            height: 8px;
+            display: block;
+            background: #9c7bfb;
+            border-radius: 50%;
+            border: 1px solid #9c7bfb;
+            margin: 0px 5px;
+            transition: all 0.3s linear;
+        }
+
+        .agency_about_area .owl-dots button.active span {
+            transform: scale(1.5);
+            border-color: rgba(251, 251, 253, 0.8);
+            background: transparent;
+        }
+}
+
+ 
