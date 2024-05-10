@@ -537,18 +537,7 @@ strong {
   text-align: center;
 }
 
-.hero-section::after {
-  background-color: rgba(0, 0, 0, 0.65);
-  border-radius: var(--border-radius-medium);
-  content: "";
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-55%, -50%) rotate(45deg);
-  width: 250px;
-  height: 350px;
-  pointer-events: none;
-}
+
 
 @media screen and (min-width: 991px) {
   .hero-section {
@@ -1089,12 +1078,13 @@ strong {
   }
 
   .navbar-expand-lg .navbar-nav {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
     margin-bottom: 0;
+    padding-left: 10px;
   }
 
   .navbar .custom-btn {
@@ -1103,6 +1093,7 @@ strong {
 
   .booking-form {
     padding: 45px;
+    
   }
 
   .contact-section .container {
